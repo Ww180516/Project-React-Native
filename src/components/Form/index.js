@@ -31,13 +31,15 @@ function validationImc(){
         setWeight(null)
         setMessageImc("Seu imc é igual:")
         setTextButton("Calcular novamente")
+        setErrorMessage(null)
         return
     }
-    verificationImc()
-    setImc(null)
-    setTextButton("Calcular")
-    setMessageImc("Preencha o peso e altura")
-    setErrorMessage(null)
+    else{
+     verificationImc()
+     setImc(null)
+     setTextButton("Calcular")
+     setMessageImc("Preencha o peso e altura")
+    }
 }
 
     return(

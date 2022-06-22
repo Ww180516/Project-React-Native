@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
-    resultImc: {
+    contextImc: {
         flex:1,
         marginTop:15,
         paddingTop:60,
@@ -9,12 +9,12 @@ const styles = StyleSheet.create({
         alignItems:"center",
         width:"100%",
     },
-    numberImc: {
+    resultImc: {
         fontSize:48,
         color:"#ff0043",
         fontWeight:"bold",
     },
-    information: {
+    titleResultImc: {
         fontSize:18,
         color:"#ff0043",
         fontWeight:"bold",
