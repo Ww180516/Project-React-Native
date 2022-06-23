@@ -49,7 +49,7 @@ function validationImc(){
     return(
         <View style={styles.formContext}>
             {imc == null ? 
-        <View onPress={Keyboard.dismiss} style={styles.form}>
+        <View onPress={Keyboard.dismiss} style={styles.from}>
                 <Text style={styles.formLabel}>Altura</Text>
                 <Text style={styles.errorMessage}>{errorMessage}</Text>
                 <TextInput
@@ -95,7 +95,10 @@ function validationImc(){
                 data={imcList.reverse()}
                 renderItem={({item}) =>{
                     return(
-                        <Text>Resultado IMC = {item.imc}</Text>
+                        <Text style={styles.resultImcItem}>
+                            <Text style={styles.textResulItemList}>Resultado IMC = </Text>
+                            {item.imc}
+                        </Text>
                     )
                 }}
                 keyExtractor={(item) =>{

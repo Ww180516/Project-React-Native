@@ -2,22 +2,16 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     formContext:{
-        width:"100%",
-        height:"100%",
-        justifyContent:"space-around",
-        botton:0,
-        backgroundColor:"#ffffff",
-        alignItems:"center",
-        borderTopLeftRadius:30,
+        flex:1,
+        marginTop:12,
+        backgroundColor:"silver",
+        borderTopLeftRadius:20,
         borderTopRightRadius:30,
-        paddingTop:15,
-        marginTop:20,
+        alignItems:"center",
+        paddingTop:30,
     },
     from: {
         width:"100%",
-        height:"auto",
-        marginTop:30,
-        padding:10,
     },
     formLabel:{
         color:"#000000",
@@ -27,7 +21,7 @@ const styles = StyleSheet.create({
     imput:{
         width:"90%",
         borderRadius:50,
-        backgroundColor:"#f6f6f6",
+        backgroundColor:"white",
         height:40,
         margin:12,
         paddingLeft:10,
@@ -37,7 +31,7 @@ const styles = StyleSheet.create({
         alignItems:"center",
         justifyContent:"center",
         width:"90%",
-        backgroundColor:"#ff0043",
+        backgroundColor:"navy",
         paddingTop:14,
         paddingBottom:14,
         marginLeft:12,
@@ -45,11 +39,11 @@ const styles = StyleSheet.create({
     },
     textButtonCalculator:{
         fontSize:20,
-        color:"#ffffff",
+        color:"orange",
     },
     errorMessage:{
         fontSize:12,
-        color:"#ff0043",
+        color:"darkorange",
         fontWeight:"bold",
         paddingLeft:20,
     },
@@ -61,11 +55,15 @@ const styles = StyleSheet.create({
         marginTop:20,
     },
     resultImcItem:{
-        fontSize:16,
-        color:"red",
-        height:50,
+        fontSize:18,
+        color:"darkorange",
+        height:30,
         width:"100%",
         paddingRight:20,
+    },
+    textResultItemList:{
+        fontSize:16,
+        color:"darkorange",
     }
 });
 
