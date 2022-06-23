@@ -4,12 +4,14 @@ const styles = StyleSheet.create({
     formContext:{
         width:"100%",
         height:"100%",
+        justifyContent:"space-around",
         botton:0,
         backgroundColor:"#ffffff",
         alignItems:"center",
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        marginTop:30,
+        paddingTop:15,
+        marginTop:20,
     },
     from: {
         width:"100%",
@@ -50,6 +52,20 @@ const styles = StyleSheet.create({
         color:"#ff0043",
         fontWeight:"bold",
         paddingLeft:20,
+    },
+    exhibitionResult:{
+        width:"100%",
+        height:"50%",
+    },
+    listImc:{
+        marginTop:20,
+    },
+    resultImcItem:{
+        fontSize:16,
+        color:"red",
+        height:50,
+        width:"100%",
+        paddingRight:20,
     }
 });
 
