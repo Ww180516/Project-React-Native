@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     formContext:{
         flex:1,
         marginTop:12,
-        backgroundColor:"silver",
+        backgroundColor:"white",
         borderTopLeftRadius:20,
         borderTopRightRadius:30,
         alignItems:"center",
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     imput:{
         width:"90%",
         borderRadius:50,
-        backgroundColor:"white",
+        backgroundColor:"lightgray",
         height:40,
         margin:12,
         paddingLeft:10,
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         alignItems:"center",
         justifyContent:"center",
         width:"90%",
-        backgroundColor:"navy",
+        backgroundColor:"orange",
         paddingTop:14,
         paddingBottom:14,
         marginLeft:12,
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
     textButtonCalculator:{
         fontSize:20,
-        color:"orange",
+        color:"white",
     },
     errorMessage:{
         fontSize:12,
